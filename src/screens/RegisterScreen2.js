@@ -1,0 +1,179 @@
+import React, { memo, useState } from "react";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import Background from "../components/Background";
+import Logo from "../components/Logo";
+import Header from "../components/Header";
+import Button from "../components/Button";
+import TextInput from "../components/TextInput";
+import BackButton from "../components/BackButton";
+import { theme } from "../core/theme";
+import {
+  emailValidator,
+  passwordValidator,
+  nameValidator,
+  rutValidator,
+  telefonoValidator,
+  direccionValidator
+} from "../core/utils";
+import { signInUser } from "../api/auth-api";
+import Toast from "../components/Toast";
+import firebase from 'firebase';
+
+const RegisterScreen2 = ({ navigation }) => {
+  const [name, setName] = useState({ value: "", error: "" });
+  const [email, setEmail] = useState({ value: "", error: "" });
+  const [password, setPassword] = useState({ value: "", error: "" });
+  const [rut, setRut] = useState({ value: "", error: "" });
+  const [telefono, setTelefono] = useState({ value: "", error: "" });
+  const [direccion, setDireccion] = useState({ value: "", error: "" });
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const _onSignUpPressed = async () => {
+    if (loading) return;
+
+    const nameError = nameValidator(name.value);
+    const emailError = emailValidator(email.value);
+    const passwordError = passwordValidator(password.value);
+    const rutError = rutValidator(name.value);
+    const telefonoError = telefonoValidator(email.value);
+    const direccionError = direccionValidator(password.value);
+
+    if (emailError || passwordError || nameError || rutError || telefonoError || direccionError) {
+      setName({ ...name, error: nameError });
+      setEmail({ ...email, error: emailError });
+      setPassword({ ...password, error: passwordError });
+      setRut({ ...rut, error: rutError });
+      setTelefono({ ...telefono, error: telefonoError });
+      setDireccion({ ...direccion, error: direccionError });
+      return;
+    }
+
+    setLoading(true);
+
+    const response = await signInUser({
+      name: name.value,
+      email: email.value,
+      password: password.value,
+    });
+
+    if (response.error) {
+      setError(response.error);
+    }
+    // codigo para ingresar datos en la database
+    firebase.database().ref('users/guias/'+rut.value).set(
+      {
+        name: name.value,
+        email: email.value,
+        telefono: telefono.value,
+        direccion: direccion.value
+      }
+    );
+    setLoading(false);
+  };
+
+  return (
+    <Background>
+      <BackButton goBack={() => navigation.navigate("HomeScreen")} />
+
+      <Header>Crea tu cuenta de Guia</Header>
+
+      <TextInput
+        label="Nombre"
+        returnKeyType="next"
+        value={name.value}
+        onChangeText={text => setName({ value: text, error: "" })}
+        error={!!name.error}
+        errorText={name.error}
+      />
+
+      <TextInput
+        label="Correo"
+        returnKeyType="next"
+        value={email.value}
+        onChangeText={text => setEmail({ value: text, error: "" })}
+        error={!!email.error}
+        errorText={email.error}
+        autoCapitalize="none"
+        autoCompleteType="email"
+        textContentType="emailAddress"
+        keyboardType="email-address"
+      />
+
+      <TextInput
+        label="Rut"
+        returnKeyType="next"
+        value={rut.value}
+        onChangeText={text => setRut({ value: text, error: "" })}
+        error={!!rut.error}
+        errorText={rut.error}
+      />
+
+      <TextInput
+        label="Telefono"
+        returnKeyType="next"
+        value={telefono.value}
+        onChangeText={text => setTelefono({ value: text, error: "" })}
+        error={!!telefono.error}
+        errorText={telefono.error}
+      />
+
+      <TextInput
+        label="Direccion"
+        returnKeyType="next"
+        value={direccion.value}
+        onChangeText={text => setDireccion({ value: text, error: "" })}
+        error={!!direccion.error}
+        errorText={direccion.error}
+      />
+
+      <TextInput
+        label="Contraseña"
+        returnKeyType="done"
+        value={password.value}
+        onChangeText={text => setPassword({ value: text, error: "" })}
+        error={!!password.error}
+        errorText={password.error}
+        secureTextEntry
+        autoCapitalize="none"
+      />
+
+      <Button
+        loading={loading}
+        mode="contained"
+        onPress={_onSignUpPressed}
+        style={styles.button}
+      >
+        Registrarse
+      </Button>
+
+      <View style={styles.row}>
+        <Text style={styles.label}>Ya tienes una cuenta? </Text>
+        <TouchableOpacity onPress={() => navigation.navigate("LoginScreen")}>
+          <Text style={styles.link}>Entrar</Text>
+        </TouchableOpacity>
+      </View>
+
+      <Toast message={error} onDismiss={() => setError("")} />
+    </Background>
+  );
+};
+
+const styles = StyleSheet.create({
+  label: {
+    color: theme.colors.secondary
+  },
+  button: {
+    marginTop: 24
+  },
+  row: {
+    flexDirection: "row",
+    marginTop: 4
+  },
+  link: {
+    fontWeight: "bold",
+    color: theme.colors.primary
+  }
+});
+
+export default memo(RegisterScreen2);

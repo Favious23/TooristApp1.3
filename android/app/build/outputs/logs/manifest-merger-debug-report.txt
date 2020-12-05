@@ -1,0 +1,552 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+MERGED from [:react-native-vector-icons] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:expo-permissions] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9625a956efd83be12a52449cf2bc00cc\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\2355070b776f835665c20f1725ec86f0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\22e6d78d421bcf7249b6a966b0ae5d4e\AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linking\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\dd635a529e0e587e9e43d0a51cb07215\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\b8e6180dc81aebec7453e640b28cb24a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\8b2e46ecfbd343f127a20c78ab86aef4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ec650904a2b50b0d39260cbfdaf01dbc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\07ce6c2b86e1a0b033cd73341a6ddd23\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\b1da193037e4e952b952ee8feb176e44\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\01a6525d5330774d623bee496de79003\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4bbef1e7fe425f8d784c28be944058ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\571e4d0b3564a8652984db8162875613\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\bc8a2cc4c6a7b04a2a49a64d4853f82e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\014488b0af6cdfe956b093c187356c7d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\b271b25a8ccb2db655e23c0b939c1fc9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\109b0b5515137b0d0b21ca8ed1be9aca\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\21546b6c1f0a180701e6b8da7e9bd658\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\e3ee9d6ea33045bfdfd64b1c5deb65a0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\38da7b092ccba6ac6b2d55c497921325\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\b950353d461b325a11fd2c1373d88fcb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\d7a462cde32bba5a1d90d52a14f98c9d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\dd8a3052fc528fde27a323ab7edbe93c\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\82e1b198dcd84d25f11caddbf45e2359\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\98d24ecd332e06fd4a563b1163d30125\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\e3c644729e8e7abd3832b0647ebf3115\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7477e665724e7f30c01a8bdb6470d83\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b1193f82da31b6df2a4e4ad1fe277713\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\6d6864e8aa457798868a7289ad07d497\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\6a08dd79bdf5e6ddc4c10c4e5d593efc\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\5eb834f619cf3bda221fc2f6bd9e24d3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ae91c18c50a60de51f1a3001c3f11465\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\46041fa81049b3d19373fff5bbe0fd7a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\cdb99ca244b69568e7ef5e2bedee5dad\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\2983ed714ad7535d1eb0e41192da6c45\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\f9c8b143e533ed59c4ad62195d191b97\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\67bfade3852999161972acc6743584c5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\1e9fa8ed0a56f980a4cf305561e4f417\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\872762c97ad078bbf5ee534e1a71fdbd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\9aad8f581aa0f0143747a55d012f17b5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d538c653bf4bdfffb39b32245e58646c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5451088c3df2975a19f177df20d8ab00\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\7aa902fe67939efb1c5c94b283c82696\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\416bb642efeeb4ba88a2db7471f1f07e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\3afee538047b65c2eb0820f17f020af3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\79737e37f3e7d1813954790d0c0fceb3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\97cefd18e184879977778867cb4fd7c1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f88168e7b4b4d331781f6d2d8709fbec\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4a6f14548b0c311a1287d25a28511b9a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\8af09c6dbec0a59685e49e932dcc21d5\AndroidManifest.xml:17:1-22:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\bb98ed11ed83c91707ae33c5943a720b\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+	package
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:2:5-49
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:1-51:12
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:16:5-81
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:25:22-70
+application
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:28:5-49:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9625a956efd83be12a52449cf2bc00cc\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9625a956efd83be12a52449cf2bc00cc\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\2355070b776f835665c20f1725ec86f0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\2355070b776f835665c20f1725ec86f0\AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\dd635a529e0e587e9e43d0a51cb07215\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\dd635a529e0e587e9e43d0a51cb07215\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\b8e6180dc81aebec7453e640b28cb24a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\b8e6180dc81aebec7453e640b28cb24a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\8b2e46ecfbd343f127a20c78ab86aef4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\8b2e46ecfbd343f127a20c78ab86aef4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:7:5-11:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\dd8a3052fc528fde27a323ab7edbe93c\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\dd8a3052fc528fde27a323ab7edbe93c\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\1e9fa8ed0a56f980a4cf305561e4f417\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\1e9fa8ed0a56f980a4cf305561e4f417\AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:29:7-38
+activity#com.reactnativefirebaseloginscreen.MainActivity
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:45:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:46:7-48:67
+	android:value
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:48:9-64
+	android:name
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml:47:9-54
+uses-sdk
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:expo-permissions] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9625a956efd83be12a52449cf2bc00cc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\9625a956efd83be12a52449cf2bc00cc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\2355070b776f835665c20f1725ec86f0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\2355070b776f835665c20f1725ec86f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\22e6d78d421bcf7249b6a966b0ae5d4e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\22e6d78d421bcf7249b6a966b0ae5d4e\AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linking\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linking\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\unimodules-app-loader\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\dd635a529e0e587e9e43d0a51cb07215\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\dd635a529e0e587e9e43d0a51cb07215\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\b8e6180dc81aebec7453e640b28cb24a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\b8e6180dc81aebec7453e640b28cb24a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\8b2e46ecfbd343f127a20c78ab86aef4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\8b2e46ecfbd343f127a20c78ab86aef4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ec650904a2b50b0d39260cbfdaf01dbc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ec650904a2b50b0d39260cbfdaf01dbc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\07ce6c2b86e1a0b033cd73341a6ddd23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\07ce6c2b86e1a0b033cd73341a6ddd23\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\b1da193037e4e952b952ee8feb176e44\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fragment-1.2.1.aar\b1da193037e4e952b952ee8feb176e44\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\01a6525d5330774d623bee496de79003\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\01a6525d5330774d623bee496de79003\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4bbef1e7fe425f8d784c28be944058ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\4bbef1e7fe425f8d784c28be944058ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\571e4d0b3564a8652984db8162875613\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\571e4d0b3564a8652984db8162875613\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\bc8a2cc4c6a7b04a2a49a64d4853f82e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\bc8a2cc4c6a7b04a2a49a64d4853f82e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\014488b0af6cdfe956b093c187356c7d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\014488b0af6cdfe956b093c187356c7d\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\b271b25a8ccb2db655e23c0b939c1fc9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\b271b25a8ccb2db655e23c0b939c1fc9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\109b0b5515137b0d0b21ca8ed1be9aca\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\109b0b5515137b0d0b21ca8ed1be9aca\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\21546b6c1f0a180701e6b8da7e9bd658\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\21546b6c1f0a180701e6b8da7e9bd658\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\e3ee9d6ea33045bfdfd64b1c5deb65a0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\e3ee9d6ea33045bfdfd64b1c5deb65a0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\38da7b092ccba6ac6b2d55c497921325\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\38da7b092ccba6ac6b2d55c497921325\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\b950353d461b325a11fd2c1373d88fcb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\b950353d461b325a11fd2c1373d88fcb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\d7a462cde32bba5a1d90d52a14f98c9d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\d7a462cde32bba5a1d90d52a14f98c9d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\dd8a3052fc528fde27a323ab7edbe93c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\dd8a3052fc528fde27a323ab7edbe93c\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\82e1b198dcd84d25f11caddbf45e2359\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\82e1b198dcd84d25f11caddbf45e2359\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\98d24ecd332e06fd4a563b1163d30125\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\98d24ecd332e06fd4a563b1163d30125\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\e3c644729e8e7abd3832b0647ebf3115\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\e3c644729e8e7abd3832b0647ebf3115\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7477e665724e7f30c01a8bdb6470d83\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a7477e665724e7f30c01a8bdb6470d83\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b1193f82da31b6df2a4e4ad1fe277713\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\b1193f82da31b6df2a4e4ad1fe277713\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\6d6864e8aa457798868a7289ad07d497\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\activity-1.1.0.aar\6d6864e8aa457798868a7289ad07d497\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\6a08dd79bdf5e6ddc4c10c4e5d593efc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\6a08dd79bdf5e6ddc4c10c4e5d593efc\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\5eb834f619cf3bda221fc2f6bd9e24d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\5eb834f619cf3bda221fc2f6bd9e24d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ae91c18c50a60de51f1a3001c3f11465\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ae91c18c50a60de51f1a3001c3f11465\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\46041fa81049b3d19373fff5bbe0fd7a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\46041fa81049b3d19373fff5bbe0fd7a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\cdb99ca244b69568e7ef5e2bedee5dad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\cdb99ca244b69568e7ef5e2bedee5dad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\2983ed714ad7535d1eb0e41192da6c45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\2983ed714ad7535d1eb0e41192da6c45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\f9c8b143e533ed59c4ad62195d191b97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\f9c8b143e533ed59c4ad62195d191b97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\54e8a061db040926bfbd55606a06ba11\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\67bfade3852999161972acc6743584c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\67bfade3852999161972acc6743584c5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\1e9fa8ed0a56f980a4cf305561e4f417\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\1e9fa8ed0a56f980a4cf305561e4f417\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\872762c97ad078bbf5ee534e1a71fdbd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\872762c97ad078bbf5ee534e1a71fdbd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\9aad8f581aa0f0143747a55d012f17b5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\9aad8f581aa0f0143747a55d012f17b5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d538c653bf4bdfffb39b32245e58646c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d538c653bf4bdfffb39b32245e58646c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5451088c3df2975a19f177df20d8ab00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5451088c3df2975a19f177df20d8ab00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\7aa902fe67939efb1c5c94b283c82696\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\7aa902fe67939efb1c5c94b283c82696\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\416bb642efeeb4ba88a2db7471f1f07e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\416bb642efeeb4ba88a2db7471f1f07e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\3afee538047b65c2eb0820f17f020af3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\3afee538047b65c2eb0820f17f020af3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\79737e37f3e7d1813954790d0c0fceb3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.2.0.aar\79737e37f3e7d1813954790d0c0fceb3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\97cefd18e184879977778867cb4fd7c1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\core-runtime-2.1.0.aar\97cefd18e184879977778867cb4fd7c1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f88168e7b4b4d331781f6d2d8709fbec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f88168e7b4b4d331781f6d2d8709fbec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4a6f14548b0c311a1287d25a28511b9a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4a6f14548b0c311a1287d25a28511b9a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\8af09c6dbec0a59685e49e932dcc21d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\8af09c6dbec0a59685e49e932dcc21d5\AndroidManifest.xml:20:5-44
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\bb98ed11ed83c91707ae33c5943a720b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\bb98ed11ed83c91707ae33c5943a720b\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] C:\Users\Fabian\Documents\projects\TooristApp 1.1 - copia (2)\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:23:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c8b9e1f81214998b8a33ceda640f4345\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\50207320c0db33077bd1b312e0709b5c\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\77dabb36e7dd2ecd021a84bf91682de6\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\0768835dd532980d3737975b09b1c23e\AndroidManifest.xml:24:13-58
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Fabian\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\dc04400151d1182fa1540d2d495a8881\AndroidManifest.xml:26:13-120
