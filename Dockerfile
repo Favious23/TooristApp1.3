@@ -1,48 +1,94 @@
-FROM openjdk:8
+FROM ubuntu:20.04
 
-LABEL MAINTAINER ANAM AHMED
-LABEL VERSION 0.4
-LABEL AUTHOR_EMAIL me@anam.co
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
-RUN apt-get update && apt-get -y install nodejs unzip
-# ENV VARIABLES
-ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip" \
-    ANDROID_HOME="/usr/local/android-sdk" \
-    ANDROID_VERSION=27 \
-    ANDROID_BUILD_TOOLS_VERSION=28.0.3\
-    GRADLE_VERSION=6.1.1\
-    MAVEN_VERSION=3.6.3
+LABEL Description="This image provides a base Android development environment for React Native, and may be used to run tests."
 
-WORKDIR ${ANDROID_HOME}
-# GET SDK MANAGER
-RUN curl -sL -o android.zip ${SDK_URL} && unzip android.zip && rm android.zip
-RUN yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
-# ANDROID SDK AND PLATFORM
-RUN $ANDROID_HOME/tools/bin/sdkmanager --update
-RUN $ANDROID_HOME/tools/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" \
-    "platforms;android-${ANDROID_VERSION}" \
-    "platform-tools"
-# GRADLE
-RUN curl -sL -o gradle.zip https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip &&\
- mkdir /opt/gradle && unzip -d /opt/gradle gradle.zip && rm gradle.zip
-# MAVEN
-RUN curl -sL -o maven.zip https://www-us.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.zip && \
-    mkdir /opt/maven && unzip -d /opt/maven maven.zip && rm maven.zip
-# ADD PATH TO BASHRC
-RUN export PATH=$PATH:$ANDROID_HOME/emulator\
-    && export PATH=$PATH:$ANDROID_HOME/tools\
-    && export PATH=$PATH:$ANDROID_HOME/tools/bin\
-    && export PATH=$PATH:/opt/gradle/gradle-${GRADLE_VERSION}/bin\
-    && export PATH=$PATH:/opt/maven/apache-maven-${MAVEN_VERSION}/bin\
-    && echo PATH=$PATH:$ANDROID_HOME/platform-tools>>/etc/bash.bashrc
-# INSTALL YARN, REACT NATIVE CLI
-RUN npm install -g yarn && yarn global add react-native-cli expo-cli
-# VOLUMES
-VOLUME ["/app","/root/.gradle"]
-# CHANGE WORKDIR
+ENV DEBIAN_FRONTEND=noninteractive
+
+#ENV ADB_IP="192.168.1.91"
+#ENV REACT_NATIVE_PACKAGER_HOSTNAME="192.168.1.1"
+# set default build arguments
+ARG SDK_VERSION=commandlinetools-linux-6609375_latest.zip
+ARG ANDROID_BUILD_VERSION=29
+ARG ANDROID_TOOLS_VERSION=29.0.3
+ARG BUCK_VERSION=2020.10.21.01
+ARG NDK_VERSION=20.1.5948944
+ARG NODE_VERSION=14.x
+ARG WATCHMAN_VERSION=4.9.0
+
+# set default environment variables
+ENV ADB_INSTALL_TIMEOUT=10
+ENV ANDROID_HOME=/opt/android
+ENV ANDROID_SDK_HOME=${ANDROID_HOME}
+ENV ANDROID_NDK=${ANDROID_HOME}/ndk/$NDK_VERSION
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+ENV PATH=${ANDROID_NDK}:${ANDROID_HOME}/cmdline-tools/tools/bin:${ANDROID_HOME}/emulator:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:/opt/buck/bin/:${PATH}
+
+# Install system dependencies
+RUN apt update -qq && apt install -qq -y --no-install-recommends \
+        apt-transport-https \
+        curl \
+        file \
+        gcc \
+        git \
+        g++ \
+        gnupg2 \
+        libc++1-10 \
+        libgl1 \
+        libtcmalloc-minimal4 \
+        make \
+        openjdk-8-jdk-headless \
+        openssh-client \
+        python3 \
+        python3-distutils \
+        rsync \
+        ruby \
+        ruby-dev \
+        tzdata \
+        unzip \
+        zip \
+    && rm -rf /var/lib/apt/lists/*;
+
+# install nodejs and yarn packages from nodesource and yarn apt sources
+RUN curl -sL https://deb.nodesource.com/setup_${NODE_VERSION} | bash - \
+    && echo "deb https://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list \
+    && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
+    && apt-get update -qq \
+    && apt-get install -qq -y --no-install-recommends nodejs yarn \
+    && rm -rf /var/lib/apt/lists/*
+
+# download and install buck using debian package
+RUN curl -sS -L https://github.com/facebook/buck/releases/download/v${BUCK_VERSION}/buck.${BUCK_VERSION}_all.deb -o /tmp/buck.deb \
+    && dpkg -i /tmp/buck.deb \
+    && rm /tmp/buck.deb
+
+# Full reference at https://dl.google.com/android/repository/repository2-1.xml
+# download and unpack android
+RUN curl -sS https://dl.google.com/android/repository/${SDK_VERSION} -o /tmp/sdk.zip \
+    && mkdir -p ${ANDROID_HOME}/cmdline-tools \
+    && unzip -q -d ${ANDROID_HOME}/cmdline-tools /tmp/sdk.zip \
+    && rm /tmp/sdk.zip \
+    && yes | sdkmanager --licenses \
+    && yes | sdkmanager "platform-tools" \
+        "emulator" \
+        "platforms;android-$ANDROID_BUILD_VERSION" \
+        "build-tools;$ANDROID_TOOLS_VERSION" \
+        "cmake;3.10.2.4988404" \
+        "system-images;android-21;google_apis;armeabi-v7a" \
+        "ndk;$NDK_VERSION" \
+    && rm -rf ${ANDROID_HOME}/.android
+
+
+RUN npm install --global expo-cli
+
+EXPOSE 19000
+EXPOSE 19001
+EXPOSE 19002
+EXPOSE 55986
+
 WORKDIR /app
-COPY . /app
-# REACT NATIVE PORT AND ADB PORT
-EXPOSE 8081 5555
-# DEFAULT REACT NATIVE COMMAND
-CMD react-native
+COPY ./package*.json .
+COPY . .
+RUN npm install
+#RUN yarn --network-timeout 100000
+#CMD [ "expo","start" ]
